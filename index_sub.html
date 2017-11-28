@@ -14,11 +14,12 @@
 	</div>
 
     <script>
-
-    
-
-        $(document).ready(function ($) {
-            console.log('Jquery $ ', $);
+		
+		// sub создает копию объекта
+		$(document).ready(function () {
+           var my_$ = jQuery.sub();
+		
+			console.log('my_$' ,my_$);
         });
 		
    
